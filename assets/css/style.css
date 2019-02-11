@@ -5,7 +5,6 @@ header {
   background:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
-
 }
 .group{
   overflow: auto;
@@ -15,45 +14,36 @@ header {
   width: 100%;
   height: 7%;
   margin-top:20px;
- 
  }
-
- .left-column{
+.left-column{
    width: 48%;
    float:left;
    text-align: center;
    margin: 5px;
-   
- }
+  }
 
  .right-column{
    width: 48%;
    float:left;
  }
-
-
- body{
+body{
    width: 1024px;
    margin: 0 auto;
    font-family: Arial, Helvetica, sans-serif;
    background: #394549;
  }
- 
  #form {
   padding: 20px;
   margin-bottom: 20px;
   background:white;
   margin-top:20px;
  }
- 
  button{
    background:#4aaaa5;;
  }
- 
  h1{
    color: #4aaaa5;
  }
- 
  .header-name {
    color: #fff;
    font-size: 20px;
@@ -64,19 +54,16 @@ header {
    line-height: 75px;
    margin-bottom: -20px;
  }
- 
  .header-nav{
    float: right;
    line-height: 1px;
    margin-right: 35px;
-
- }
+}
  .header-about{
    text-align: left;
    border-bottom: 2px solid gray;
  }
-
- .header-portfolio{
+.header-portfolio{
    text-align: left;
    border-bottom: 2px solid gray;
    border-top: 15px solid #333;
@@ -89,10 +76,8 @@ header {
   line-height: 125px;
   display: inline-block;
   margin: 8px;
-  
 }
-
- .portfolio2{
+.portfolio2{
   background: url(http://lorempixel.com/124/125/cats/2/cc);
   height: 125px;
   width: 125px;
@@ -100,10 +85,8 @@ header {
   line-height: 125px;
   display: inline-block;
   margin: 8px;
-  
- }
-
- .portfolio3{
+}
+.portfolio3{
   background: url(http://lorempixel.com/125/125/cats/1/cc);
   height: 125px;
   width: 125px;
@@ -112,8 +95,7 @@ header {
   display: inline-block;
   margin: 8px;
   }
-
-  .portfolio4{
+.portfolio4{
     background: url(http://lorempixel.com/125/125/cats/9/cc);
     height: 125px;
     width: 125px;
@@ -121,39 +103,49 @@ header {
     line-height: 125px;
     display: inline-block;
     margin: 8px;
-    
-  }
-
-  .container{
+}
+.portfolio5{
+    background: url(http://lorempixel.com/output/cats-q-c-125-125-10.jpg);
+    height: 125px;
+    width: 125px;
+    text-align:center;
+    line-height: 125px;
+    display: inline-block;
+    margin: 8px;
+}
+.portfolio6{
+    background: url(http://lorempixel.com/output/cats-q-c-125-125-4.jpg);
+    height: 125px;
+    width: 125px;
+    text-align:center;
+    line-height: 125px;
+    display: inline-block;
+    margin: 8px;
+}
+.container{
     position: relative;
     background: #333;
     margin-bottom: 50px;
     border-bottom: 30px solid #333;
     margin-top: 20px;
-
-  }
-
-  .text-block{
+}
+.text-block{
     background-color: aqua;
     display: inline;
     color: white;
     text-align: center;
-    
-  }
+}
   .footer{
     height: 50px;
     width: 100%;
     background: #4aaaa5;
   }
-  
-  
-  .main-container{
+.main-container{
     width: 90%;
     margin: 0 auto;
     min-height: 100%;
     }
-
-  @keyframes test{
+@keyframes test{
       0% {background-color: red;}
       25% {background-color: yellow;}
       50% {background-color: green;}
@@ -165,10 +157,7 @@ header {
       animation-duration: 5s;
       animation-iteration-count: 5;
     }
-
-  
-  
-  @media screen and (max-width:980px){
+@media screen and (max-width:980px){
   body{
     width: 100%;
     background-color: black;
@@ -180,15 +169,12 @@ header {
   .main-header{
     width: 100%;
   }
- 
-}
-
+ }
 @media screen and (max-width:786px){
   body{
     width:100%;
     background-color: blueviolet;
   }
-  
 }
 @media screen and (max-width:640px){
   body{
